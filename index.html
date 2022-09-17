@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfollio-website</title>
+    <style>
+      #parentdiv {
+        display: block;
+        height: 600px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 10px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+      }
+      .title-name {
+        color: black;
+        font-weight: bolder;
+        margin-left: 120px;
+      }
+      table {
+        border-collapse: separate;
+      }
+      .t {
+        padding-left: 720px;
+      }
+      .im {
+        padding-top: 20px;
+      }
+      img {
+        padding: 0 10px 0 10px;
+      }
+      #top {
+        display: block;
+        background-color: rgb(92, 92, 215);
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+        height: 170px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      #bottom {
+        display: block;
+        background-color: white;
+      }
+      #top-child {
+        display: block;
+        height: 180px;
+        width: 200px;
+        border-radius: 10px;
+        background-color: bisque;
+        position: absolute;
+        margin-left: 150px;
+        margin-top: 10px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+      }
+      #top-data {
+        margin-left: 500px;
+      }
+      h1 {
+        color: white;
+        font-weight: bolder;
+        padding-top: 20px;
+      }
+      #top-para {
+        color: white;
+      }
+      .button1 {
+        color: black;
+        background-color: white;
+        border: none;
+        padding: 12px;
+        border-radius: 20px;
+        margin-right: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      .button2 {
+        color: white;
+        background-color: #04aa6d;
+        border: none;
+        padding: 13px;
+        border-radius: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      }
+      #profile {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 140px;
+        padding-top: 5px;
+      }
+      #abt-me {
+        padding-top: 30px;
+        padding-left: 60px;
+      }
+      #right-side-details {
+        padding-left: 100px;
+      }
+      #prof {
+        padding-left: 60px;
+      }
+      .skill-bars {
+        padding-left: 50px;
+        margin-left: 50px;
+        width: 1130px;
+        background: #fff;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+      }
+      li {
+        color: black;
+        list-style-type: none;
+        font-family: sans-serif;
+      }
+      .skills {
+        width: 400px;
+        color: #fff;
+      }
+      .bar {
+        background-color: #353b48;
+        display: block;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 3px;
+        overflow: hidden;
+        box-shadow: 0 0 10px #2187e7b3;
+      }
+      .bar span {
+        height: 2px;
+        float: left;
+        background-color: #2187e7;
+      }
+      #ski-table {
+        width: 1100px;
+      }
+      #one {
+        width: 500px;
+      }
+      #two {
+        width: 500px;
+      }
+      .html {
+        width: 95%;
+        animation: html 2s;
+      }
+
+      .css {
+        width: 90%;
+        animation: css 2s;
+      }
+
+      .c {
+        width: 50%;
+        animation: c 2s;
+      }
+
+      .java {
+        width: 30%;
+        animation: java 2s;
+      }
+
+      @keyframes html {
+        0% {
+          width: 0%;
+        }
+
+        100% {
+          width: 95%;
+        }
+      }
+
+      @keyframes css {
+        0% {
+          width: 0%;
+        }
+
+        100% {
+          width: 90%;
+        }
+      }
+
+      @keyframes c {
+        0% {
+          width: 0%;
+        }
+
+        100% {
+          width: 80%;
+        }
+      }
+
+      @keyframes java {
+        0% {
+          width: 0%;
+        }
+
+        100% {
+          width: 70%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td><h1 class="title-name">SHARUKH KUMAR S</h1></td>
+        <td class="t im"><img src="twitter.png" alt="" /></td>
+        <td class="im"><img src="facebook.png" alt="" /></td>
+        <td class="im"><img src="instagram.png" alt="" /></td>
+        <td class="im"><img src="github.png" alt="" /></td>
+      </tr>
+    </table>
+    <div id="parentdiv">
+      <div id="top">
+        <div id="top-child">
+          <img id="profile" src="profile_pic.jpg" alt="" />
+        </div>
+        <div id="top-data">
+          <h1>SHARUKH KUMAR S</h1>
+          <p id="top-para">Student at Velammal Engineering College</p>
+          <button class="button1">Download CV</button>
+          <button class="button2">Hire me</button>
+        </div>
+      </div>
+      <div id="bottom">
+        <table>
+          <tr>
+            <td>
+              <div id="abt-me">
+                <h2>About Me</h2>
+                <p>
+                  Hello! I am Sharukh kumar S. I am an Engineering student at
+                  <br />Velammal Engineering College, Chennai. I am currently
+                  pursuing <br />my Bachelor's Degree in Electronics and
+                  Communication.
+                </p>
+              </div>
+            </td>
+            <td>
+              <div id="right-side-details">
+                <h4>AGE : 20</h4>
+                <h4>EMAIL : ssharukhkumar002@gmail.com</h4>
+                <h4>PHONE : 9962896877</h4>
+                <h4>
+                  ADDRESS : Plot no. 4B,Jayachandran Street, VGN Mahalakshmi
+                  Nagar, Thiruverkadu , Chennai-77
+                </h4>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <hr />
+        <h3 id="prof">PROFFESSIONAL SKILLS</h3>
+        <div class="skill-bars">
+          <div class="skills">
+            <table id="ski-table">
+              <tr>
+                <td>
+                  <div id="one">
+                    <li>
+                      <h4>HTML</h4>
+                      <span class="bar"><span class="html"></span></span>
+                    </li>
+                    <li>
+                      <h4>CSS</h4>
+                      <span class="bar"><span class="css"></span></span>
+                    </li>
+                  </div>
+                </td>
+                <td>
+                  <div id="two">
+                    <li>
+                      <h4>C</h4>
+                      <span class="bar"><span class="c"></span></span>
+                    </li>
+                    <li>
+                      <h4>JAVA</h4>
+                      <span class="bar"><span class="java"></span></span>
+                    </li>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
